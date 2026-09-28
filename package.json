@@ -1,0 +1,63 @@
+{
+  "name": "ai-seo-audit-mcp",
+  "version": "1.0.0",
+  "description": "AI SEO Audit MCP — AI-powered SEO audit tools for Claude & Claude Code by Webseotrends",
+  "main": "dist/index.js",
+  "bin": {
+    "ai-seo-audit-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "seo",
+    "ai-seo",
+    "claude-seo",
+    "claude-code",
+    "seo-audit",
+    "seo-tools",
+    "ai-seo-tools",
+    "geo-seo",
+    "model-context-protocol",
+    "technical-seo",
+    "on-page-seo",
+    "keyword-analysis",
+    "webseotrends",
+    "seo-mcp",
+    "claude-mcp",
+    "ai-search",
+    "generative-engine-optimisation"
+  ],
+  "author": "Mani Pathak <mani@webseotrends.com> (https://webseotrends.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manipathaktech/ai-seo-audit-mcp.git"
+  },
+  "homepage": "https://webseotrends.com",
+  "bugs": {
+    "url": "https://github.com/manipathaktech/ai-seo-audit-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

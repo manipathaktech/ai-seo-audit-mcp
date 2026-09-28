@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "claude-seo": {
+      "command": "node",
+      "args": ["/path/to/claude-seo-mcp/dist/index.js"],
+      "env": {}
+    }
+  }
+}
